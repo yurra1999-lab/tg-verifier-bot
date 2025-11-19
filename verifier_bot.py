@@ -5,8 +5,9 @@ from telegram.ext import (
     ContextTypes, filters
 )
 
-BOT_TOKEN = "8456833116:AAEVMXr0raF_0G9G6lZj-lysM6UDQUZFgEY"
-ADMIN_ID = 1371708378
+import os
+BOT_TOKEN = os.environ.get("8456833116:AAEVMXr0raF_0G9G6lZj-lysM6UDQUZFgEY")
+ADMIN_ID = int(os.environ.get("1371708378"))
 
 TRIGGER_WORDS = ["подарок", "звезды", "звёзды", "гарант", "diamond", "diamonds", "купить"]
 
