@@ -7,7 +7,7 @@ from telegram.ext import (
 
 import os
 BOT_TOKEN = os.environ.get("8456833116:AAEVMXr0raF_0G9G6lZj-lysM6UDQUZFgEY")
-ADMIN_ID = int(os.environ.get("1371708378"))
+ADMIN_ID = int(os.environ.get("ADMIN_ID"))
 
 TRIGGER_WORDS = ["подарок", "звезды", "звёзды", "гарант", "diamond", "diamonds", "купить"]
 
